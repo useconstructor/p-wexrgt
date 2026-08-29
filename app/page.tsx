@@ -199,21 +199,21 @@ export default function Home() {
   const testimonials = [
     {
       quote:
-        "LexAI ha transformado cómo manejamos la revisión de contratos. Lo que antes tomaba días a nuestros asociados ahora toma horas. Solo la función de resaltado de riesgos nos ha salvado de pasar por alto cláusulas críticas.",
+        "JurisAI ha transformado cómo manejamos la revisión de contratos. Lo que antes tomaba días a nuestros asociados ahora toma horas. Solo la función de resaltado de riesgos nos ha salvado de pasar por alto cláusulas críticas.",
       author: "Socio Director",
       firm: "Thompson Sterling LLP",
       initials: "SD",
     },
     {
       quote:
-        "Como profesional independiente, necesitaba una ventaja para competir con bufetes más grandes. LexAI me da capacidades de investigación de nivel empresarial a una fracción del costo. Mis clientes están impresionados con la rapidez con que puedo entregar análisis completos.",
+        "Como profesional independiente, necesitaba una ventaja para competir con bufetes más grandes. JurisAI me da capacidades de investigación de nivel empresarial a una fracción del costo. Mis clientes están impresionados con la rapidez con que puedo entregar análisis completos.",
       author: "Abogado Independiente",
       firm: "Meridian Law Office",
       initials: "AI",
     },
     {
       quote:
-        "La integración con nuestro software de gestión de práctica existente fue perfecta. Nuestro equipo adoptó LexAI en una semana y hemos visto una mejora medible en nuestros tiempos de entrega de documentos.",
+        "La integración con nuestro software de gestión de práctica existente fue perfecta. Nuestro equipo adoptó JurisAI en una semana y hemos visto una mejora medible en nuestros tiempos de entrega de documentos.",
       author: "Director de Operaciones",
       firm: "Blackwell & Associates",
       initials: "DO",
@@ -222,24 +222,24 @@ export default function Home() {
 
   const faqs = [
     {
-      question: "¿Cómo garantiza LexAI la seguridad de mis documentos?",
+      question: "¿Cómo garantiza JurisAI la seguridad de mis documentos?",
       answer:
         "Todos los documentos están encriptados tanto en tránsito como en reposo usando encriptación AES 256. Mantenemos cumplimiento SOC 2 Tipo II, y nuestra infraestructura está alojada en servidores cloud seguros con auditorías de seguridad regulares. Tú retienes la propiedad total de tus datos, y nunca usamos tus documentos para entrenar nuestros modelos sin consentimiento explícito.",
     },
     {
-      question: "¿Puede LexAI reemplazar a mi equipo de investigación legal?",
+      question: "¿Puede JurisAI reemplazar a mi equipo de investigación legal?",
       answer:
-        "LexAI está diseñado para potenciar a tu equipo, no para reemplazarlo. Maneja la investigación inicial y revisión de documentos que consume tiempo, permitiendo que tus abogados se enfoquen en estrategia, relaciones con clientes y análisis legal complejo que requiere juicio humano.",
+        "JurisAI está diseñado para potenciar a tu equipo, no para reemplazarlo. Maneja la investigación inicial y revisión de documentos que consume tiempo, permitiendo que tus abogados se enfoquen en estrategia, relaciones con clientes y análisis legal complejo que requiere juicio humano.",
     },
     {
-      question: "¿Qué tipos de documentos puede analizar LexAI?",
+      question: "¿Qué tipos de documentos puede analizar JurisAI?",
       answer:
-        "LexAI puede analizar una amplia gama de documentos legales incluyendo contratos, acuerdos de confidencialidad, contratos de empleo, arrendamientos, documentos corporativos, documentos de litigio y materiales de cumplimiento regulatorio. Soportamos formatos PDF, Word y texto plano.",
+        "JurisAI puede analizar una amplia gama de documentos legales incluyendo contratos, acuerdos de confidencialidad, contratos de empleo, arrendamientos, documentos corporativos, documentos de litigio y materiales de cumplimiento regulatorio. Soportamos formatos PDF, Word y texto plano.",
     },
     {
       question: "¿Qué tan preciso es el análisis de contratos de la IA?",
       answer:
-        "Nuestro análisis de contratos logra más del 95% de precisión en identificar cláusulas clave, riesgos y obligaciones. Sin embargo, siempre recomendamos la revisión por abogados de los hallazgos generados por IA. LexAI proporciona la base para un análisis más rápido y exhaustivo, con tu experiencia proporcionando el juicio final.",
+        "Nuestro análisis de contratos logra más del 95% de precisión en identificar cláusulas clave, riesgos y obligaciones. Sin embargo, siempre recomendamos la revisión por abogados de los hallazgos generados por IA. JurisAI proporciona la base para un análisis más rápido y exhaustivo, con tu experiencia proporcionando el juicio final.",
     },
     {
       question: "¿Ofrecen capacitación para nuestro equipo?",
@@ -256,7 +256,7 @@ export default function Home() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             <a href="#" className="flex items-center gap-2">
               <Scale className="w-8 h-8 text-gold" />
-              <span className="font-serif text-2xl text-light">LexAI</span>
+              <span className="font-serif text-2xl text-light">JurisAI</span>
             </a>
 
             {/* Desktop Navigation */}
@@ -380,7 +380,7 @@ export default function Home() {
             <div className="relative rounded-xl overflow-hidden border border-navy shadow-2xl">
               <Image
                 src="/images/hero.png"
-                alt="Panel de LexAI mostrando análisis de contratos e interfaz de investigación legal"
+                alt="Panel de JurisAI mostrando análisis de contratos e interfaz de investigación legal"
                 width={1200}
                 height={675}
                 className="w-full h-auto"
@@ -501,7 +501,7 @@ export default function Home() {
               Servicios
             </Badge>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-light mb-4">
-              Cómo LexAI Potencia Tu Práctica
+              Cómo JurisAI Potencia Tu Práctica
             </h2>
             <p className="text-muted-blue max-w-2xl mx-auto">
               Desde profesionales independientes hasta bufetes empresariales, nuestra
@@ -661,7 +661,7 @@ export default function Home() {
             </h2>
             <p className="text-muted-blue max-w-2xl mx-auto">
               Descubre cómo profesionales legales están transformando su práctica
-              con LexAI.
+              con JurisAI.
             </p>
           </div>
 
@@ -712,7 +712,7 @@ export default function Home() {
               Preguntas Frecuentes
             </h2>
             <p className="text-muted-blue">
-              Todo lo que necesitas saber sobre LexAI y cómo puede ayudar a tu
+              Todo lo que necesitas saber sobre JurisAI y cómo puede ayudar a tu
               práctica.
             </p>
           </div>
@@ -766,7 +766,7 @@ export default function Home() {
                   ¿Listo para Transformar Tu Práctica Legal?
                 </h2>
                 <p className="text-muted-blue text-lg mb-8">
-                  Únete a más de 500 bufetes que ya usan LexAI para trabajar de
+                  Únete a más de 500 bufetes que ya usan JurisAI para trabajar de
                   manera más inteligente, rápida y eficiente. Inicia tu prueba
                   gratis o agenda una demo personalizada.
                 </p>
@@ -840,7 +840,7 @@ export default function Home() {
             <div>
               <a href="#" className="flex items-center gap-2 mb-6">
                 <Scale className="w-8 h-8 text-gold" />
-                <span className="font-serif text-2xl text-light">LexAI</span>
+                <span className="font-serif text-2xl text-light">JurisAI</span>
               </a>
               <p className="text-muted-blue text-sm mb-6">
                 Inteligencia legal impulsada por IA para bufetes modernos. Transforma
@@ -849,7 +849,7 @@ export default function Home() {
               </p>
               <div className="flex gap-4">
                 <a
-                  href="mailto:contact@lexai.com"
+                  href="mailto:contact@jurisai.com"
                   className="w-10 h-10 rounded-full bg-navy-deep flex items-center justify-center text-muted-blue hover:text-gold hover:bg-gold/10 transition-colors"
                   aria-label="Email"
                 >
@@ -977,7 +977,7 @@ export default function Home() {
 
           <div className="pt-8 border-t border-navy-deep flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-muted-blue text-sm">
-              &copy; {new Date().getFullYear()} LexAI. Todos los derechos reservados.
+              &copy; {new Date().getFullYear()} JurisAI. Todos los derechos reservados.
             </p>
             <p className="text-muted-blue text-sm">
               Creado para profesionales legales que exigen excelencia.
