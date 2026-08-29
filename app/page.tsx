@@ -40,54 +40,54 @@ export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const navLinks = [
-    { label: "Features", href: "#features" },
-    { label: "Services", href: "#services" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "Testimonials", href: "#testimonials" },
-    { label: "FAQ", href: "#faq" },
+    { label: "Funciones", href: "#features" },
+    { label: "Servicios", href: "#services" },
+    { label: "Precios", href: "#pricing" },
+    { label: "Testimonios", href: "#testimonials" },
+    { label: "Preguntas Frecuentes", href: "#faq" },
   ];
 
   const stats = [
-    { value: "500+", label: "Law Firms Trust Us" },
-    { value: "2M+", label: "Documents Analyzed" },
-    { value: "85%", label: "Time Saved on Research" },
-    { value: "99.9%", label: "Uptime Guarantee" },
+    { value: "500+", label: "Bufetes Confían en Nosotros" },
+    { value: "2M+", label: "Documentos Analizados" },
+    { value: "85%", label: "Tiempo Ahorrado en Investigación" },
+    { value: "99.9%", label: "Garantía de Disponibilidad" },
   ];
 
   const features = [
     {
       icon: FileSearch,
-      title: "Contract Analysis",
+      title: "Análisis de Contratos",
       description:
-        "AI identifies risks, unusual clauses, and potential issues in seconds. Get highlighted annotations and plain language summaries.",
+        "La IA identifica riesgos, cláusulas inusuales y problemas potenciales en segundos. Obtén anotaciones resaltadas y resúmenes en lenguaje sencillo.",
       size: "large",
     },
     {
       icon: Scale,
-      title: "Legal Research Engine",
+      title: "Motor de Investigación Legal",
       description:
-        "Search case law, statutes, and regulations with natural language queries. Find relevant precedents faster than traditional methods.",
+        "Busca jurisprudencia, estatutos y regulaciones con consultas en lenguaje natural. Encuentra precedentes relevantes más rápido que los métodos tradicionales.",
       size: "medium",
     },
     {
       icon: FileText,
-      title: "Document Drafting",
+      title: "Redacción de Documentos",
       description:
-        "Generate first drafts of contracts, motions, and briefs using customizable templates trained on best practices.",
+        "Genera primeros borradores de contratos, mociones y escritos usando plantillas personalizables basadas en mejores prácticas.",
       size: "medium",
     },
     {
       icon: Lock,
-      title: "Secure Storage",
+      title: "Almacenamiento Seguro",
       description:
-        "Bank level encryption for all documents with granular access controls.",
+        "Encriptación de nivel bancario para todos los documentos con controles de acceso granulares.",
       size: "small",
     },
     {
       icon: Plug,
-      title: "Seamless Integrations",
+      title: "Integraciones Sin Problemas",
       description:
-        "Connect with Clio, MyCase, PracticePanther, and more.",
+        "Conéctate con Clio, MyCase, PracticePanther y más.",
       size: "small",
     },
   ];
@@ -95,102 +95,102 @@ export default function Home() {
   const services = [
     {
       icon: BarChart3,
-      title: "Risk Assessment Reports",
+      title: "Informes de Evaluación de Riesgos",
       description:
-        "Comprehensive analysis of contract risks with severity ratings and recommended actions for each identified issue.",
+        "Análisis integral de riesgos contractuales con calificaciones de severidad y acciones recomendadas para cada problema identificado.",
     },
     {
       icon: Zap,
-      title: "Instant Due Diligence",
+      title: "Due Diligence Instantáneo",
       description:
-        "Accelerate M&A and corporate transactions with AI powered document review that processes thousands of pages in hours.",
+        "Acelera fusiones, adquisiciones y transacciones corporativas con revisión de documentos impulsada por IA que procesa miles de páginas en horas.",
     },
     {
       icon: Calculator,
-      title: "Usage Based Billing",
+      title: "Facturación por Uso",
       description:
-        "Only pay for what you use. Our transparent pricing model scales with your practice without surprise charges.",
+        "Solo paga por lo que usas. Nuestro modelo de precios transparente escala con tu práctica sin cargos sorpresa.",
     },
     {
       icon: Users,
-      title: "Team Collaboration",
+      title: "Colaboración en Equipo",
       description:
-        "Share documents, annotations, and research across your firm with role based permissions and audit trails.",
+        "Comparte documentos, anotaciones e investigaciones en todo tu bufete con permisos basados en roles y registros de auditoría.",
     },
   ];
 
   const processSteps = [
     {
       step: "01",
-      title: "Upload Your Documents",
+      title: "Sube Tus Documentos",
       description:
-        "Securely upload contracts, briefs, or any legal documents through our encrypted portal or integrations.",
+        "Sube de forma segura contratos, escritos o cualquier documento legal a través de nuestro portal encriptado o integraciones.",
     },
     {
       step: "02",
-      title: "AI Analysis",
+      title: "Análisis de IA",
       description:
-        "Our models analyze your documents, identifying key terms, risks, and relevant case law automatically.",
+        "Nuestros modelos analizan tus documentos, identificando términos clave, riesgos y jurisprudencia relevante automáticamente.",
     },
     {
       step: "03",
-      title: "Review Insights",
+      title: "Revisa los Hallazgos",
       description:
-        "Get actionable insights with highlighted sections, risk scores, and plain language explanations.",
+        "Obtén información accionable con secciones resaltadas, puntuaciones de riesgo y explicaciones en lenguaje sencillo.",
     },
     {
       step: "04",
-      title: "Take Action",
+      title: "Toma Acción",
       description:
-        "Export reports, draft responses, or collaborate with your team directly within the platform.",
+        "Exporta informes, redacta respuestas o colabora con tu equipo directamente dentro de la plataforma.",
     },
   ];
 
   const pricingPlans = [
     {
-      name: "Solo Practitioner",
+      name: "Profesional Independiente",
       price: "$199",
-      period: "/month",
-      description: "Perfect for individual attorneys and small practices",
+      period: "/mes",
+      description: "Perfecto para abogados individuales y prácticas pequeñas",
       features: [
-        "Up to 100 document analyses per month",
-        "Basic legal research access",
-        "5 document templates",
-        "Email support",
-        "Secure document storage (10GB)",
+        "Hasta 100 análisis de documentos por mes",
+        "Acceso básico a investigación legal",
+        "5 plantillas de documentos",
+        "Soporte por correo electrónico",
+        "Almacenamiento seguro de documentos (10GB)",
       ],
       popular: false,
     },
     {
-      name: "Growing Firm",
+      name: "Bufete en Crecimiento",
       price: "$499",
-      period: "/month",
-      description: "Ideal for mid size firms scaling their practice",
+      period: "/mes",
+      description: "Ideal para bufetes medianos que escalan su práctica",
       features: [
-        "Up to 500 document analyses per month",
-        "Advanced legal research with case law",
-        "25 document templates",
-        "Priority support",
-        "Secure document storage (50GB)",
-        "Team collaboration (up to 10 users)",
-        "Integration with practice management tools",
+        "Hasta 500 análisis de documentos por mes",
+        "Investigación legal avanzada con jurisprudencia",
+        "25 plantillas de documentos",
+        "Soporte prioritario",
+        "Almacenamiento seguro de documentos (50GB)",
+        "Colaboración en equipo (hasta 10 usuarios)",
+        "Integración con herramientas de gestión de práctica",
       ],
       popular: true,
     },
     {
-      name: "Enterprise",
-      price: "Custom",
+      name: "Empresarial",
+      price: "Personalizado",
       period: "",
-      description: "For large firms with complex requirements",
+      description: "Para grandes bufetes con requisitos complejos",
       features: [
-        "Unlimited document analyses",
-        "Full legal research suite",
-        "Custom document templates",
-        "Dedicated account manager",
-        "Unlimited secure storage",
-        "Unlimited team members",
-        "Custom integrations and API access",
-        "On premise deployment options",
+        "Análisis de documentos ilimitados",
+        "Suite completa de investigación legal",
+        "Plantillas de documentos personalizadas",
+        "Gerente de cuenta dedicado",
+        "Almacenamiento seguro ilimitado",
+        "Miembros de equipo ilimitados",
+        "Integraciones personalizadas y acceso API",
+        "Opciones de implementación en sitio",
       ],
       popular: false,
     },
@@ -199,22 +199,22 @@ export default function Home() {
   const testimonials = [
     {
       quote:
-        "LexAI has transformed how we handle contract review. What used to take our associates days now takes hours. The risk highlighting feature alone has saved us from missing critical clauses.",
-      author: "Managing Partner",
+        "LexAI ha transformado cómo manejamos la revisión de contratos. Lo que antes tomaba días a nuestros asociados ahora toma horas. Solo la función de resaltado de riesgos nos ha salvado de pasar por alto cláusulas críticas.",
+      author: "Socio Director",
       firm: "Thompson Sterling LLP",
-      initials: "MP",
+      initials: "SD",
     },
     {
       quote:
-        "As a solo practitioner, I needed an edge to compete with larger firms. LexAI gives me enterprise level research capabilities at a fraction of the cost. My clients are impressed with how quickly I can turn around comprehensive analyses.",
-      author: "Solo Practice Attorney",
+        "Como profesional independiente, necesitaba una ventaja para competir con bufetes más grandes. LexAI me da capacidades de investigación de nivel empresarial a una fracción del costo. Mis clientes están impresionados con la rapidez con que puedo entregar análisis completos.",
+      author: "Abogado Independiente",
       firm: "Meridian Law Office",
-      initials: "SA",
+      initials: "AI",
     },
     {
       quote:
-        "The integration with our existing practice management software was seamless. Our team adopted LexAI within a week and we have seen a measurable improvement in our document turnaround times.",
-      author: "Director of Operations",
+        "La integración con nuestro software de gestión de práctica existente fue perfecta. Nuestro equipo adoptó LexAI en una semana y hemos visto una mejora medible en nuestros tiempos de entrega de documentos.",
+      author: "Director de Operaciones",
       firm: "Blackwell & Associates",
       initials: "DO",
     },
@@ -222,29 +222,29 @@ export default function Home() {
 
   const faqs = [
     {
-      question: "How does LexAI ensure the security of my documents?",
+      question: "¿Cómo garantiza LexAI la seguridad de mis documentos?",
       answer:
-        "All documents are encrypted both in transit and at rest using AES 256 encryption. We maintain SOC 2 Type II compliance, and our infrastructure is hosted on secure cloud servers with regular security audits. You retain full ownership of your data, and we never use your documents to train our models without explicit consent.",
+        "Todos los documentos están encriptados tanto en tránsito como en reposo usando encriptación AES 256. Mantenemos cumplimiento SOC 2 Tipo II, y nuestra infraestructura está alojada en servidores cloud seguros con auditorías de seguridad regulares. Tú retienes la propiedad total de tus datos, y nunca usamos tus documentos para entrenar nuestros modelos sin consentimiento explícito.",
     },
     {
-      question: "Can LexAI replace my legal research team?",
+      question: "¿Puede LexAI reemplazar a mi equipo de investigación legal?",
       answer:
-        "LexAI is designed to augment your team, not replace them. It handles the time consuming initial research and document review, allowing your attorneys to focus on strategy, client relationships, and complex legal analysis that requires human judgment.",
+        "LexAI está diseñado para potenciar a tu equipo, no para reemplazarlo. Maneja la investigación inicial y revisión de documentos que consume tiempo, permitiendo que tus abogados se enfoquen en estrategia, relaciones con clientes y análisis legal complejo que requiere juicio humano.",
     },
     {
-      question: "What types of documents can LexAI analyze?",
+      question: "¿Qué tipos de documentos puede analizar LexAI?",
       answer:
-        "LexAI can analyze a wide range of legal documents including contracts, NDAs, employment agreements, leases, corporate filings, litigation documents, and regulatory compliance materials. We support PDF, Word, and plain text formats.",
+        "LexAI puede analizar una amplia gama de documentos legales incluyendo contratos, acuerdos de confidencialidad, contratos de empleo, arrendamientos, documentos corporativos, documentos de litigio y materiales de cumplimiento regulatorio. Soportamos formatos PDF, Word y texto plano.",
     },
     {
-      question: "How accurate is the AI contract analysis?",
+      question: "¿Qué tan preciso es el análisis de contratos de la IA?",
       answer:
-        "Our contract analysis achieves over 95% accuracy in identifying key clauses, risks, and obligations. However, we always recommend attorney review of AI generated insights. LexAI provides the foundation for faster, more thorough analysis, with your expertise providing the final judgment.",
+        "Nuestro análisis de contratos logra más del 95% de precisión en identificar cláusulas clave, riesgos y obligaciones. Sin embargo, siempre recomendamos la revisión por abogados de los hallazgos generados por IA. LexAI proporciona la base para un análisis más rápido y exhaustivo, con tu experiencia proporcionando el juicio final.",
     },
     {
-      question: "Do you offer training for our team?",
+      question: "¿Ofrecen capacitación para nuestro equipo?",
       answer:
-        "Yes, all plans include onboarding sessions. Growing Firm and Enterprise plans include comprehensive training programs, and Enterprise clients receive ongoing training as we release new features. We also offer an extensive knowledge base and video tutorials.",
+        "Sí, todos los planes incluyen sesiones de incorporación. Los planes Bufete en Crecimiento y Empresarial incluyen programas de capacitación integrales, y los clientes Empresariales reciben capacitación continua a medida que lanzamos nuevas funciones. También ofrecemos una amplia base de conocimientos y tutoriales en video.",
     },
   ];
 
@@ -278,10 +278,10 @@ export default function Home() {
                 className="text-light hover:text-gold hover:bg-navy"
                 asChild
               >
-                <a href="#contact">Request Demo</a>
+                <a href="#contact">Solicitar Demo</a>
               </Button>
               <Button className="bg-gold text-navy-deep hover:bg-gold-light" asChild>
-                <a href="#pricing">Get Started</a>
+                <a href="#pricing">Comenzar</a>
               </Button>
             </div>
 
@@ -289,7 +289,7 @@ export default function Home() {
             <button
               className="lg:hidden p-2 text-light"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+              aria-label={mobileMenuOpen ? "Cerrar menú" : "Abrir menú"}
             >
               {mobileMenuOpen ? (
                 <X className="w-6 h-6" />
@@ -327,10 +327,10 @@ export default function Home() {
                   className="w-full border-gold text-gold hover:bg-gold hover:text-navy-deep"
                   asChild
                 >
-                  <a href="#contact">Request Demo</a>
+                  <a href="#contact">Solicitar Demo</a>
                 </Button>
                 <Button className="w-full bg-gold text-navy-deep hover:bg-gold-light" asChild>
-                  <a href="#pricing">Get Started</a>
+                  <a href="#pricing">Comenzar</a>
                 </Button>
               </div>
             </div>
@@ -343,16 +343,16 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-navy-deep via-navy-deep to-navy opacity-90" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="bg-navy border-gold text-gold mb-6">
-            AI Powered Legal Intelligence
+            Inteligencia Legal Impulsada por IA
           </Badge>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-light mb-6 max-w-4xl mx-auto leading-tight">
-            Legal Work at the{" "}
-            <span className="text-gold">Speed of Thought</span>
+            Trabajo Legal a la{" "}
+            <span className="text-gold">Velocidad del Pensamiento</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-blue max-w-2xl mx-auto mb-10">
-            Transform your practice with AI powered contract analysis, legal
-            research, and document drafting. Trusted by over 500 law firms
-            worldwide.
+            Transforma tu práctica con análisis de contratos impulsado por IA,
+            investigación legal y redacción de documentos. Confiado por más de 500
+            bufetes de abogados en todo el mundo.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
             <Button
@@ -361,7 +361,7 @@ export default function Home() {
               asChild
             >
               <a href="#pricing">
-                Start Free Trial <ArrowRight className="ml-2 w-5 h-5" />
+                Iniciar Prueba Gratis <ArrowRight className="ml-2 w-5 h-5" />
               </a>
             </Button>
             <Button
@@ -370,7 +370,7 @@ export default function Home() {
               className="border-muted-blue text-light hover:bg-navy hover:border-gold px-8 py-6 text-lg"
               asChild
             >
-              <a href="#contact">Schedule Demo</a>
+              <a href="#contact">Agendar Demo</a>
             </Button>
           </div>
 
@@ -380,7 +380,7 @@ export default function Home() {
             <div className="relative rounded-xl overflow-hidden border border-navy shadow-2xl">
               <Image
                 src="/images/hero.png"
-                alt="LexAI Dashboard showing contract analysis and legal research interface"
+                alt="Panel de LexAI mostrando análisis de contratos e interfaz de investigación legal"
                 width={1200}
                 height={675}
                 className="w-full h-auto"
@@ -414,14 +414,14 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <Badge className="bg-navy border-gold text-gold mb-4">
-              Capabilities
+              Capacidades
             </Badge>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-light mb-4">
-              Powerful Features for Modern Legal Practice
+              Funciones Potentes para la Práctica Legal Moderna
             </h2>
             <p className="text-muted-blue max-w-2xl mx-auto">
-              Everything you need to streamline your legal workflow, from document
-              analysis to research and drafting.
+              Todo lo que necesitas para optimizar tu flujo de trabajo legal, desde
+              análisis de documentos hasta investigación y redacción.
             </p>
           </div>
 
@@ -441,7 +441,7 @@ export default function Home() {
                 <div className="relative rounded-lg overflow-hidden">
                   <Image
                     src="/images/feature.png"
-                    alt="Contract analysis feature showing risk highlighting"
+                    alt="Función de análisis de contratos mostrando resaltado de riesgos"
                     width={600}
                     height={400}
                     className="w-full h-auto"
@@ -498,14 +498,14 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <Badge className="bg-navy-deep border-gold text-gold mb-4">
-              Services
+              Servicios
             </Badge>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-light mb-4">
-              How LexAI Empowers Your Practice
+              Cómo LexAI Potencia Tu Práctica
             </h2>
             <p className="text-muted-blue max-w-2xl mx-auto">
-              From solo practitioners to enterprise firms, our AI adapts to your
-              workflow and scales with your needs.
+              Desde profesionales independientes hasta bufetes empresariales, nuestra
+              IA se adapta a tu flujo de trabajo y escala con tus necesidades.
             </p>
           </div>
 
@@ -537,14 +537,14 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <Badge className="bg-navy border-gold text-gold mb-4">
-              How It Works
+              Cómo Funciona
             </Badge>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-light mb-4">
-              Get Started in Minutes
+              Comienza en Minutos
             </h2>
             <p className="text-muted-blue max-w-2xl mx-auto">
-              Our streamlined onboarding gets you from signup to insights faster
-              than any traditional legal research tool.
+              Nuestra incorporación optimizada te lleva del registro a los
+              hallazgos más rápido que cualquier herramienta tradicional de investigación legal.
             </p>
           </div>
 
@@ -578,14 +578,14 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <Badge className="bg-navy-deep border-gold text-gold mb-4">
-              Pricing
+              Precios
             </Badge>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-light mb-4">
-              Transparent Pricing for Every Practice
+              Precios Transparentes para Cada Práctica
             </h2>
             <p className="text-muted-blue max-w-2xl mx-auto">
-              No hidden fees. No long term contracts. Start with a free trial and
-              scale as you grow.
+              Sin tarifas ocultas. Sin contratos a largo plazo. Comienza con una
+              prueba gratis y escala a medida que creces.
             </p>
           </div>
 
@@ -602,7 +602,7 @@ export default function Home() {
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                     <Badge className="bg-gold text-navy-deep px-4 py-1">
-                      Most Popular
+                      Más Popular
                     </Badge>
                   </div>
                 )}
@@ -639,7 +639,7 @@ export default function Home() {
                     asChild
                   >
                     <a href="#contact">
-                      {plan.price === "Custom" ? "Contact Sales" : "Start Free Trial"}
+                      {plan.price === "Personalizado" ? "Contactar Ventas" : "Iniciar Prueba Gratis"}
                     </a>
                   </Button>
                 </CardContent>
@@ -654,14 +654,14 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <Badge className="bg-navy border-gold text-gold mb-4">
-              Testimonials
+              Testimonios
             </Badge>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-light mb-4">
-              Trusted by Leading Law Firms
+              Confiado por Bufetes Líderes
             </h2>
             <p className="text-muted-blue max-w-2xl mx-auto">
-              See how legal professionals are transforming their practice with
-              LexAI.
+              Descubre cómo profesionales legales están transformando su práctica
+              con LexAI.
             </p>
           </div>
 
@@ -709,11 +709,11 @@ export default function Home() {
           <div className="text-center mb-16">
             <Badge className="bg-navy-deep border-gold text-gold mb-4">FAQ</Badge>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-light mb-4">
-              Frequently Asked Questions
+              Preguntas Frecuentes
             </h2>
             <p className="text-muted-blue">
-              Everything you need to know about LexAI and how it can help your
-              practice.
+              Todo lo que necesitas saber sobre LexAI y cómo puede ayudar a tu
+              práctica.
             </p>
           </div>
 
@@ -760,28 +760,28 @@ export default function Home() {
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 p-8 lg:p-16">
               <div>
                 <Badge className="bg-gold/20 border-gold text-gold mb-6">
-                  Get Started Today
+                  Comienza Hoy
                 </Badge>
                 <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-light mb-6">
-                  Ready to Transform Your Legal Practice?
+                  ¿Listo para Transformar Tu Práctica Legal?
                 </h2>
                 <p className="text-muted-blue text-lg mb-8">
-                  Join over 500 law firms already using LexAI to work smarter,
-                  faster, and more efficiently. Start your free trial or schedule
-                  a personalized demo.
+                  Únete a más de 500 bufetes que ya usan LexAI para trabajar de
+                  manera más inteligente, rápida y eficiente. Inicia tu prueba
+                  gratis o agenda una demo personalizada.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3 text-light">
                     <CheckCircle className="w-5 h-5 text-gold" />
-                    14 day free trial, no credit card required
+                    14 días de prueba gratis, sin tarjeta de crédito
                   </div>
                   <div className="flex items-center gap-3 text-light">
                     <CheckCircle className="w-5 h-5 text-gold" />
-                    Personalized onboarding and training
+                    Incorporación y capacitación personalizadas
                   </div>
                   <div className="flex items-center gap-3 text-light">
                     <CheckCircle className="w-5 h-5 text-gold" />
-                    Cancel anytime, no long term commitment
+                    Cancela cuando quieras, sin compromiso a largo plazo
                   </div>
                 </div>
               </div>
@@ -790,32 +790,32 @@ export default function Home() {
               <Card className="bg-navy-deep/80 border-navy backdrop-blur">
                 <CardHeader>
                   <CardTitle className="text-light font-serif text-2xl">
-                    Request a Demo
+                    Solicitar una Demo
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <Input
-                        placeholder="First Name"
+                        placeholder="Nombre"
                         className="bg-navy border-navy text-light placeholder:text-muted-blue focus:border-gold"
                       />
                       <Input
-                        placeholder="Last Name"
+                        placeholder="Apellido"
                         className="bg-navy border-navy text-light placeholder:text-muted-blue focus:border-gold"
                       />
                     </div>
                     <Input
                       type="email"
-                      placeholder="Work Email"
+                      placeholder="Correo de Trabajo"
                       className="bg-navy border-navy text-light placeholder:text-muted-blue focus:border-gold"
                     />
                     <Input
-                      placeholder="Firm Name"
+                      placeholder="Nombre del Bufete"
                       className="bg-navy border-navy text-light placeholder:text-muted-blue focus:border-gold"
                     />
                     <Textarea
-                      placeholder="Tell us about your practice and what you are looking to achieve"
+                      placeholder="Cuéntanos sobre tu práctica y qué buscas lograr"
                       rows={4}
                       className="bg-navy border-navy text-light placeholder:text-muted-blue focus:border-gold resize-none"
                     />
@@ -823,7 +823,7 @@ export default function Home() {
                       type="submit"
                       className="w-full bg-gold text-navy-deep hover:bg-gold-light"
                     >
-                      Submit Request <ArrowRight className="ml-2 w-4 h-4" />
+                      Enviar Solicitud <ArrowRight className="ml-2 w-4 h-4" />
                     </Button>
                   </form>
                 </CardContent>
@@ -843,9 +843,9 @@ export default function Home() {
                 <span className="font-serif text-2xl text-light">LexAI</span>
               </a>
               <p className="text-muted-blue text-sm mb-6">
-                AI powered legal intelligence for modern law firms. Transform your
-                practice with smarter contract analysis, research, and document
-                drafting.
+                Inteligencia legal impulsada por IA para bufetes modernos. Transforma
+                tu práctica con análisis de contratos más inteligente, investigación
+                y redacción de documentos.
               </p>
               <div className="flex gap-4">
                 <a
@@ -877,14 +877,14 @@ export default function Home() {
             </div>
 
             <div>
-              <h4 className="font-semibold text-light mb-4">Product</h4>
+              <h4 className="font-semibold text-light mb-4">Producto</h4>
               <ul className="space-y-3">
                 <li>
                   <a
                     href="#features"
                     className="text-muted-blue hover:text-gold transition-colors text-sm"
                   >
-                    Features
+                    Funciones
                   </a>
                 </li>
                 <li>
@@ -892,7 +892,7 @@ export default function Home() {
                     href="#pricing"
                     className="text-muted-blue hover:text-gold transition-colors text-sm"
                   >
-                    Pricing
+                    Precios
                   </a>
                 </li>
                 <li>
@@ -900,7 +900,7 @@ export default function Home() {
                     href="#services"
                     className="text-muted-blue hover:text-gold transition-colors text-sm"
                   >
-                    Services
+                    Servicios
                   </a>
                 </li>
                 <li>
@@ -908,21 +908,21 @@ export default function Home() {
                     href="#testimonials"
                     className="text-muted-blue hover:text-gold transition-colors text-sm"
                   >
-                    Case Studies
+                    Casos de Estudio
                   </a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="font-semibold text-light mb-4">Company</h4>
+              <h4 className="font-semibold text-light mb-4">Empresa</h4>
               <ul className="space-y-3">
                 <li>
                   <a
                     href="#faq"
                     className="text-muted-blue hover:text-gold transition-colors text-sm"
                   >
-                    About Us
+                    Sobre Nosotros
                   </a>
                 </li>
                 <li>
@@ -930,7 +930,7 @@ export default function Home() {
                     href="#contact"
                     className="text-muted-blue hover:text-gold transition-colors text-sm"
                   >
-                    Contact
+                    Contacto
                   </a>
                 </li>
                 <li>
@@ -952,7 +952,7 @@ export default function Home() {
                     href="#faq"
                     className="text-muted-blue hover:text-gold transition-colors text-sm"
                   >
-                    Privacy Policy
+                    Política de Privacidad
                   </a>
                 </li>
                 <li>
@@ -960,7 +960,7 @@ export default function Home() {
                     href="#faq"
                     className="text-muted-blue hover:text-gold transition-colors text-sm"
                   >
-                    Terms of Service
+                    Términos de Servicio
                   </a>
                 </li>
                 <li>
@@ -968,7 +968,7 @@ export default function Home() {
                     href="#faq"
                     className="text-muted-blue hover:text-gold transition-colors text-sm"
                   >
-                    Security
+                    Seguridad
                   </a>
                 </li>
               </ul>
@@ -977,10 +977,10 @@ export default function Home() {
 
           <div className="pt-8 border-t border-navy-deep flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-muted-blue text-sm">
-              &copy; {new Date().getFullYear()} LexAI. All rights reserved.
+              &copy; {new Date().getFullYear()} LexAI. Todos los derechos reservados.
             </p>
             <p className="text-muted-blue text-sm">
-              Built for legal professionals who demand excellence.
+              Creado para profesionales legales que exigen excelencia.
             </p>
           </div>
         </div>
