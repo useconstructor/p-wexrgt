@@ -344,13 +344,13 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-navy-deep via-navy-deep to-navy opacity-90" />
+      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden" style={{ backgroundColor: '#0d4f4f' }}>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0d4f4f] via-[#0d4f4f] to-[#0b4545] opacity-90" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="bg-navy border-gold text-gold mb-6">
             Inteligencia Legal Impulsada por IA
           </Badge>
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-light mb-6 max-w-4xl mx-auto leading-tight">
+          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-6 max-w-4xl mx-auto leading-tight">
             Trabajo Legal a la{" "}
             <span className="text-gold">Velocidad del Pensamiento</span>
           </h1>
