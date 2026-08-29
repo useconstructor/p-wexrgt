@@ -396,6 +396,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Social Proof Bar */}
+      <section className="py-12 bg-navy-deep">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-center text-muted-blue text-sm mb-8">
+            Confiado por bufetes líderes en todo el mundo
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 items-center justify-items-center">
+            <div className="w-40 h-16 bg-gray-700 rounded flex items-center justify-center">
+              <span className="text-muted-blue text-sm font-medium">Thompson Sterling</span>
+            </div>
+            <div className="w-40 h-16 bg-gray-700 rounded flex items-center justify-center">
+              <span className="text-muted-blue text-sm font-medium">Blackwell & Associates</span>
+            </div>
+            <div className="w-40 h-16 bg-gray-700 rounded flex items-center justify-center">
+              <span className="text-muted-blue text-sm font-medium">Meridian Law</span>
+            </div>
+            <div className="w-40 h-16 bg-gray-700 rounded flex items-center justify-center">
+              <span className="text-muted-blue text-sm font-medium">Harrison Legal</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Stats Banner */}
       <section className="py-12 bg-navy border-y border-navy-deep">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
