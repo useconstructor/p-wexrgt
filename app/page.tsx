@@ -246,6 +246,11 @@ export default function Home() {
       answer:
         "Sí, todos los planes incluyen sesiones de incorporación. Los planes Bufete en Crecimiento y Empresarial incluyen programas de capacitación integrales, y los clientes Empresariales reciben capacitación continua a medida que lanzamos nuevas funciones. También ofrecemos una amplia base de conocimientos y tutoriales en video.",
     },
+    {
+      question: "¿Cuáles son las opciones de precios y hay una prueba gratis?",
+      answer:
+        "Ofrecemos tres planes: Profesional Independiente ($199/mes), Bufete en Crecimiento ($499/mes) y Empresarial (precios personalizados). Todos los planes incluyen una prueba gratis de 14 días sin necesidad de tarjeta de crédito. No hay contratos a largo plazo y puedes cancelar cuando quieras. Para prácticas más grandes con requisitos específicos, contacta a nuestro equipo de ventas para opciones personalizadas.",
+    },
   ];
 
   return (
